@@ -1,0 +1,35 @@
+{
+  "name": "job-scraper",
+  "version": "1.0.0",
+  "description": "Automated job scraper that fetches jobs from 5 major sites, rewrites your resume per JD using AI, and outputs a daily Excel sheet.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/scheduler.js",
+    "run": "node scripts/run-once.js",
+    "setup": "node scripts/setup.js",
+    "test": "node --test tests/"
+  },
+  "keywords": [
+    "job-scraper",
+    "apify",
+    "resume",
+    "automation"
+  ],
+  "author": "Rajesh Kanna",
+  "license": "ISC",
+  "dependencies": {
+    "apify-client": "^2.22.3",
+    "dotenv": "^17.4.0",
+    "exceljs": "^4.4.0",
+    "inquirer": "^13.3.2",
+    "linkedin-jobs-scraper": "^18.0.1",
+    "node-cron": "^4.2.1",
+    "node-notifier": "^10.0.1",
+    "openai": "^6.33.0",
+    "p-limit": "^7.3.0",
+    "pdf-parse": "^2.4.5",
+    "puppeteer": "^24.40.0",
+    "winston": "^3.19.0"
+  }
+}

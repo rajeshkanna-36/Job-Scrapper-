@@ -1,0 +1,112 @@
+[
+  {
+    "name": "LinkedIn",
+    "actorId": "bebity/linkedin-jobs-scraper",
+    "enabled": true,
+    "color": "#0A66C2",
+    "searchParams": {
+      "keywords": "Full Stack Developer",
+      "location": "India",
+      "maxJobs": 20,
+      "experienceLevel": "2", 
+      "publishedAt": "r86400",
+      "sortOrder": "date"
+    },
+    "fieldMapping": {
+      "title": "title",
+      "company": "companyName",
+      "location": "location",
+      "description": "description",
+      "applyUrl": "jobUrl",
+      "postedDate": "publishedAt",
+      "salary": "salary",
+      "jobType": "contractType"
+    }
+  },
+  {
+    "name": "Indeed",
+    "actorId": "hMvNSpz3JnHgl5jkh",
+    "enabled": true,
+    "color": "#2164F3",
+    "searchParams": {
+      "position": "Fresher Full Stack Developer",
+      "country": "IN",
+      "location": "India",
+      "maxItems": 20,
+      "sort": "date"
+    },
+    "fieldMapping": {
+      "title": "positionName",
+      "company": "company",
+      "location": "location",
+      "description": "description",
+      "applyUrl": "url",
+      "postedDate": "postedAt",
+      "salary": "salary",
+      "jobType": "jobType"
+    }
+  },
+  {
+    "name": "Glassdoor",
+    "actorId": "hMvNSpz3JnHgl5jkh",
+    "enabled": false,
+    "color": "#0CAA41",
+    "searchParams": {
+      "position": "Junior Full Stack Developer",
+      "location": "India",
+      "maxItems": 20
+    },
+    "fieldMapping": {
+      "title": "jobTitle",
+      "company": "employerName",
+      "location": "location",
+      "description": "jobDescription",
+      "applyUrl": "jobLink",
+      "postedDate": "postedDate",
+      "salary": "salaryRange",
+      "jobType": "jobType"
+    }
+  },
+  {
+    "name": "Naukri",
+    "actorId": "hMvNSpz3JnHgl5jkh",
+    "enabled": false,
+    "color": "#4A90D9",
+    "searchParams": {
+      "position": "Fresher Full Stack Developer",
+      "location": "India",
+      "maxItems": 20
+    },
+    "fieldMapping": {
+      "title": "title",
+      "company": "company",
+      "location": "location",
+      "description": "jobDescription",
+      "applyUrl": "applyUrl",
+      "postedDate": "createdDate",
+      "salary": "salary",
+      "jobType": "employmentType"
+    }
+  },
+  {
+    "name": "RemoteOK",
+    "actorId": "hMvNSpz3JnHgl5jkh",
+    "enabled": false,
+    "color": "#FF4742",
+    "searchParams": {
+      "position": "Junior Full Stack Developer",
+      "location": "Remote",
+      "maxItems": 20
+    },
+    "fieldMapping": {
+      "title": "position",
+      "company": "company",
+      "location": "location",
+      "description": "description",
+      "applyUrl": "url",
+      "postedDate": "date",
+      "salary": "salary_min",
+      "jobType": "tags"
+    }
+  }
+]

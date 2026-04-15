@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Output files
+output/*.xlsx
+
+# Logs
+logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Resume (user's private data)
+resume/*.pdf
+resume/*.docx
